@@ -14,8 +14,9 @@
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
 body {
   color: #a9a9a9;
-  font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo',
-    'Noto Sans Japanese', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ",
+    "Meiryo", "Noto Sans Japanese", Osaka, "ＭＳ Ｐゴシック", "MS PGothic",
+    sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -54,7 +55,7 @@ header a,
 .display-3,
 .lead,
 .circle-badges {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 /* パンくずリスト */
@@ -63,12 +64,12 @@ header a,
 }
 
 .breadcrumb li + li:before {
-  content: '»' !important;
+  content: "»" !important;
 }
 
 /* ヘッダー営業時間 */
 .top-stitch {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   color: #565656;
   background-color: #a9a9a9;
   box-shadow: 0px 0px 0px 10px #a9a9a9;
@@ -125,13 +126,15 @@ header a,
 
 .zigzag::before {
   top: -60px;
-  background: linear-gradient(45deg, #a9a9a9 30px, transparent 0), linear-gradient(315deg, #a9a9a9 30px, transparent 0);
+  background: linear-gradient(45deg, #a9a9a9 30px, transparent 0),
+    linear-gradient(315deg, #a9a9a9 30px, transparent 0);
   background-size: 60px 60px;
 }
 
 .zigzag::after {
   bottom: -60px;
-  background: linear-gradient(135deg, #a9a9a9 30px, transparent 0), linear-gradient(225deg, #a9a9a9 30px, transparent 0);
+  background: linear-gradient(135deg, #a9a9a9 30px, transparent 0),
+    linear-gradient(225deg, #a9a9a9 30px, transparent 0);
   background-size: 60px 60px;
 }
 
@@ -153,13 +156,15 @@ header a,
 
 .light-zigzag::before {
   top: -60px;
-  background: linear-gradient(45deg, #f8f9fa 30px, transparent 0), linear-gradient(315deg, #f8f9fa 30px, transparent 0);
+  background: linear-gradient(45deg, #f8f9fa 30px, transparent 0),
+    linear-gradient(315deg, #f8f9fa 30px, transparent 0);
   background-size: 60px 60px;
 }
 
 .light-zigzag::after {
   bottom: -60px;
-  background: linear-gradient(135deg, #f8f9fa 30px, transparent 0), linear-gradient(225deg, #f8f9fa 30px, transparent 0);
+  background: linear-gradient(135deg, #f8f9fa 30px, transparent 0),
+    linear-gradient(225deg, #f8f9fa 30px, transparent 0);
   background-size: 60px 60px;
 }
 
@@ -181,7 +186,8 @@ header a,
   height: 60px;
   content: "";
   top: -60px;
-  background: linear-gradient(45deg, #a9a9a9 30px, transparent 0), linear-gradient(315deg, #a9a9a9 30px, transparent 0);
+  background: linear-gradient(45deg, #a9a9a9 30px, transparent 0),
+    linear-gradient(315deg, #a9a9a9 30px, transparent 0);
   background-size: 60px 60px;
 }
 
@@ -208,7 +214,7 @@ iframe {
 }
 
 .stitch p {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
@@ -219,7 +225,7 @@ iframe {
 
 /* トップ画像 */
 .top-image {
-  background-image: url("../img/kurr.jpg");
+  background-image: url("../img/kurr.png");
   background-size: cover;
   background-position: center center;
   height: 650px;
@@ -306,7 +312,6 @@ input[type]:focus {
 /* 小デバイス（横向きモバイル, 768px 未満）
 ============================================== */
 @media screen and (max-width: 767.98px) {
-
   /* ロゴマークを小さく設定 */
   .logo-mark {
     height: 140px;
@@ -333,7 +338,6 @@ input[type]:focus {
 /* 極小デバイス（縦向きモバイル, 576px 未満）
 	============================================== */
 @media screen and (max-width: 575.98px) {
-
   .display-3,
   .display-4 {
     font-size: 2rem;
